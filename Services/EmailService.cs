@@ -25,11 +25,11 @@ namespace PayosferIdentity.Services
             {
                 string smtpServer = "smtp.gmail.com";
                 int smtpPort = 587;
-                string smtpUsername = "denemextremelab@gmail.com";
-                string smtpPassword = "geszhwljdjuitxga";
+                string smtpUsername = "******@gmail.com";
+                string smtpPassword = "********";
 
                 MailMessage message = new MailMessage();
-                message.From = new MailAddress("denemextremelab@gmail.com");
+                message.From = new MailAddress("*******@gmail.com");
                 message.To.Add(email);
                 message.Subject = subject;
                 message.Body = body;
