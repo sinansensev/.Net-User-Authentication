@@ -1,0 +1,61 @@
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-image: url('/Users/sinansensev/Desktop/my-firebase-app/src/smallphoto.png');
+  background-size: 200px; /* Resmin boyutunu küçültün */
+  background-repeat: repeat; /* Arka planın sürekli tekrar edilmesini sağlayın */
+  background-color: rgba(255, 255, 255, 0.7); /* Arka planın %70 oranında şeffaf olmasını sağlayın */
+  background-blend-mode: lighten; /* Arka planın üzerindeki içeriğin daha iyi görünmesini sağlayın */
+}
+
+.login-form {
+  width: 400px; /* Formun genişliğini ayarlayın */
+  background-color: rgba(255, 255, 255); /* Formun arka planının %70 soluk olmasını sağlayın */
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+  position: relative; /* İçerideki öğelerin pozisyonunu ayarlamak için */
+}
+
+.login-input-container {
+  margin-bottom: 15px;
+}
+
+.login-input {
+  width: calc(100% - 24px); /* 100%'nin iç kenar boşluğunu çıkar */
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-top: 30px; /* Yukarıya doğru boşluk ekleyin */
+}
+
+.login-button {
+  width: 100%;
+  padding: 12px;
+  background-color: #1E1150;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 20px; /* Yukarıya doğru boşluk ekleyin */
+}
+
+.login-button:hover {
+  background-color: #5d567a;
+}
+
+.login-error {
+  color: red;
+  margin-top: 10px;
+}
+
+.login-email-label,
+.login-password-label {
+  position: absolute;
+  top: 12px; /* Yukarıya doğru boşluk ekleyin */
+  left: 12px; /* Sola doğru boşluk ekleyin */
+  background-color: rgba(255, 255, 255); /* Arkaplanı şeffaf yapın */
+  padding: 0 5px; /* Kenar boşluklarını ayarlayın */
+}

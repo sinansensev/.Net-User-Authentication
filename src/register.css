@@ -1,0 +1,83 @@
+.all-register {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-image: url('/Users/sinansensev/Desktop/my-firebase-app/src/smallphoto.png'); 
+  background-size: 200px; /* Arka plan resminin boyutunu küçültün */
+  background-repeat: repeat; /* Arka planın sürekli tekrar edilmesini sağlayın */
+  background-color: rgba(255, 255, 255, 0.7); /* Arka planın %70 oranında şeffaf olmasını sağlayın */
+  background-blend-mode: lighten; /* Arka planın üzerindeki içeriğin daha iyi görünmesini sağlayın */
+}
+
+.container-register {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+  padding: 30px;
+  width: 400px;
+  text-align: center;
+}
+
+.register-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.label-register {
+  margin-bottom: 8px;
+  font-weight: bold;
+  color: #555;
+}
+
+.input-register {
+  padding: 10px;
+  color: black;
+  margin-bottom: 20px;
+  border: 1px solid rgb(0, 0, 0);
+  border-radius: 4px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.button-register {
+  padding: 12px 20px;
+  background-color: #1E1150;
+  color: rgb(255, 255, 255);
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.button-register:hover {
+  background-color: #5d567a;
+}
+
+.login-link {
+  margin-top: 20px;
+  font-size: 14px;
+  color: #777;
+}
+
+.login-link a {
+  color: #1E1150;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.login-link a:hover {
+  text-decoration: underline;
+}
+
+#register-form h2 {
+  color: #333;
+  margin-bottom: 20px;
+  font-size: 24px;
+}
