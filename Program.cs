@@ -16,7 +16,7 @@ builder.Services.AddScoped<EmailService>();
 
 builder.Services.AddDbContext<AppDbContext>(options =>
 {
-    options.UseNpgsql("Host=localhost;Port=5432;Database=pmsystem1;Username=postgres;Password=5284;Pooling=true;");
+    options.UseNpgsql("Host=localhost;Port=5432;Database=pmsystem1;Username=*****;Password=****;Pooling=true;");
 });
 
 builder.Services.AddControllers();
