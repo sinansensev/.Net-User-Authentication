@@ -23,8 +23,8 @@ namespace PayosferIdentity.Services
         {
             try
             {
-                string smtpServer = "smtp.gmail.com";
-                int smtpPort = 587;
+                string smtpServer = "****.gmail.com";
+                int smtpPort = ***;
                 string smtpUsername = "******@gmail.com";
                 string smtpPassword = "********";
 
